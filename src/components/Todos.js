@@ -8,7 +8,7 @@ const Todos = () => {
     setLoader(true)
 
     setTimeout(() => {
-      setTodos(['work', 'study', 'chill'])
+      setTodos(['work', 'study', 'chill', 'sport'])
       setLoader(false)
     }, 1000)
   }
