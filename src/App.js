@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Todos from "./components/Todos";
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -10,6 +11,9 @@ const App = () => {
       <div>
         count {count}
         <button onClick={increment}>add new data</button>
+
+        <hr/>
+        <Todos/>
       </div>
   );
 };
